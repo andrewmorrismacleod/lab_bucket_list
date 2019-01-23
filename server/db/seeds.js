@@ -3,13 +3,16 @@ db.dropDatabase();
 
 db.items.insertMany([
 {
-  name: "Go to Machu Pichu"
+  name: "Go to Machu Pichu",
+  tagged: "Yes"
 },
 {
-  name: "Play guitar solo"
+  name: "Play guitar solo",
+  tagged: "No"
 },
 {
-  name: "Meet Nessie"
+  name: "Meet Nessie",
+  tagged: "No"
 }
 
 ])
